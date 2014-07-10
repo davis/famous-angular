@@ -166,5 +166,8 @@ angular.module('famous.angular')
       
       return $famousUrlRouter;
     }
+})
+.run(function ($famousUrlRouter) {
+
 });    
   
